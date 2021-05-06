@@ -69,6 +69,11 @@ p {
 
 }
 
+.lang2:hover {
+    text-decoration: underline;
+
+}
+
 .button-apps {
     width: 30px;
     height: 30px;
