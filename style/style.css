@@ -44,6 +44,11 @@ button:focus {
     outline: none;
 }
 
+p {
+    color: var(--button-search-font);
+}
+
+
 .nav {
     width: auto;
     display: flex;
@@ -130,8 +135,6 @@ button:focus {
     height: 25px;
     margin-right: 1rem;
     
-
-
 }
 
 .input {
@@ -181,9 +184,6 @@ button:focus {
     color: #1a0dab;
 }
 
-p {
-    color: var(--button-search-font);
-}
 
 .footer {
     position: absolute;
@@ -192,7 +192,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 99.7%;
     border: 1px solid var(--border-color);
     background: var(--footer-background);
     color: var(--footer-font);
